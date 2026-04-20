@@ -6,8 +6,8 @@ import streamlit as st
 model_path = r'C:\Users\Lapmart.lk\Downloads\Diabetes_project\Diabetes_trained_model.sav'
 scaler_path = r'C:\Users\Lapmart.lk\Downloads\Diabetes_project\scaler.sav'
 
-loaded_model = pickle.load(open(model_path, 'rb'))
-scaler = pickle.load(open(scaler_path, 'rb'))
+loaded_model = pickle.load(open('Diabetes_trained_model.sav', 'rb'))
+scaler = pickle.load(open('scaler.sav', 'rb'))
 
 
 def diabetes_prediction(input_data):
