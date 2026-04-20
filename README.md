@@ -45,3 +45,16 @@ The model was trained on the PIMA Diabetes Dataset (Kaggle). It uses the followi
 7) Diabetes Pedigree Function
 
 8) Age
+   
+## Technical Details
+
+### Model Architecture
+- **Algorithm:** Support Vector Machine (SVM)
+- **Kernel:** Linear
+- **Preprocessing:** Standard Scaling (`StandardScaler`)
+
+### Performance
+- **Training Accuracy:** ~78-80%
+- **Test Accuracy:** ~77-79%
+
+The model uses the **PIMA Indians Diabetes Dataset**. The primary focus was on **Glucose levels** and **BMI**, which showed the highest correlation with diabetes risk during Exploratory Data Analysis (EDA).
