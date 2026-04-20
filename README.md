@@ -1,12 +1,11 @@
 # Diabetes-Prediction-System
 A Machine Learning web application that predicts diabetes risk using a Support Vector Machine (SVM) classifier. Features a user-friendly interface built with Streamlit and standardized medical data processing
-🚀 Live Demo
-[Paste your Streamlit Cloud Link Here - Optional]
-
-Project Overview
+# Live Demo
+Check out the live application here: [Diabetes Prediction Web App] https://diabetes-prediction-system-dsqnm6rzqfht5eevxulwwi.streamlit.app/
+# Project Overview
 The core of this project is a Support Vector Machine (SVM) classifier. I chose SVM because it is highly effective at finding the optimal "hyperplane" that separates data points into categories—in this case, Diabetic and Non-Diabetic.
 
-Key Features:
+# Key Features:
 Algorithm: SVM with a Linear Kernel.
 
 Accuracy: Achieved a test accuracy of approximately 77-82%.
@@ -15,34 +14,34 @@ Real-time Prediction: A Streamlit-based UI where users can input medical data an
 
 Data Standardization: Implemented StandardScaler to ensure medical features like Glucose and Insulin are weighted equally by the model.
 
-🛠️ Tech Stack
-Language: Python 3.x
+# Tech Stack
+1) Language: Python 3.x
 
-Machine Learning: Scikit-Learn
+2) Machine Learning: Scikit-Learn
 
-Data Handling: Pandas, NumPy
+3) Data Handling: Pandas, NumPy
 
-Visualization: Seaborn, Matplotlib
+4) Visualization: Seaborn, Matplotlib
 
-Web Framework: Streamlit
+5) Web Framework: Streamlit
 
-Model Serialization: Pickle
+6) Model Serialization: Pickle
 
-📊 Dataset Information
+# Dataset Information
 The model was trained on the PIMA Diabetes Dataset (Kaggle). It uses the following medical features:
 
-Pregnancies
+1) Pregnancies
 
-Glucose Level
+2) Glucose Level
 
-Blood Pressure
+3) Blood Pressure
 
-Skin Thickness
+4) Skin Thickness
 
-Insulin Level
+5) Insulin Level
 
-BMI
+6) BMI
 
-Diabetes Pedigree Function
+7) Diabetes Pedigree Function
 
-Age
+8) Age
